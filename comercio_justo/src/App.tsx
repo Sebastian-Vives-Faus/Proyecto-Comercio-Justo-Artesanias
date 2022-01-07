@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 import {SiteIndex} from "./SiteIndex/SiteIndex"
 
-function App() {
+// Firebase
+import firebase from './config/firebase-config';
+//import 'firebase/auth';
+
+function App() {  
   return (
     <>
-      <SiteIndex user="Sebas" />
+      <SiteIndex/>
     </>
   );
 }
