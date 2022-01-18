@@ -1,0 +1,14 @@
+.MuiCard-root .hidden-button {
+    display: none;
+}
+
+.MuiCard-root:hover .hidden-button {
+    display: flex;
+}
+
+.buy_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+}

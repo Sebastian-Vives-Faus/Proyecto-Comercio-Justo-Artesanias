@@ -16,7 +16,7 @@ const AuthProvider = (props) => {
     useEffect(() => {
         firebase.auth().onAuthStateChanged((userCred) => {
             if (userCred) {
-                //console.log(userCred);
+                console.log(userCred);
                 setAuthState({
                     isLogged: true,
                     current_user: userCred

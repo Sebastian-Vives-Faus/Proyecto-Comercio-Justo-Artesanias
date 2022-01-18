@@ -2,6 +2,10 @@ const firebase = require("./firebase");
 
 function authMiddleware(request, response, next) {
   const headerToken = request.headers.authorization;
+  
+  // If we fetch the folkart, no auth is needed
+  if(request.path == '/folkart') return next();
+  
   if (!headerToken) {
     return response.send({ message: "No token provided" }).status(401);
   }

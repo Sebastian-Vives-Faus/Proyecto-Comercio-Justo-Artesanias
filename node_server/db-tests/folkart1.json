@@ -1,0 +1,20 @@
+{
+    "folkart": [
+        {
+            "id": 1,
+            "name": "Mariposas",
+            "artisan": "Alejandro",
+            "price": 100,
+            "image": "https://i.pinimg.com/236x/6b/d8/39/6bd839eb0931c2c1053a3107c00afd9d.jpg",
+            "hover_image": "https://i.pinimg.com/236x/fe/d0/19/fed0195277f9295881e246b56976cfd4.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Caballito",
+            "artisan": "Alejandro",
+            "price": 1000,
+            "image": "https://www.mamalisa.com/images/ml_images/caballito_blanco_moc.jpg",
+            "hover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6K0Jnxl-2VrIBeFpGpxxSJdmWTlQfq9WFqc-Z6DlrsVobsSzZpoeB_wabJvc9M15XzeI&usqp=CAU"
+        }
+    ]
+}
